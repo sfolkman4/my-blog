@@ -58,6 +58,7 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - github-pages
 
 # Permalink
 permalink: "blog/:title"
