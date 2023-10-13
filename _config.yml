@@ -7,9 +7,9 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Spencer Folkman 
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: A site about myself
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -18,17 +18,17 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
+#heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://www.wsupercars.com/wallpapers-wide/Formula-1/McLaren/2023-Formula1-McLaren-MCL60-003-1440w.jpg
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email: mailto:sfolkman4@gmail.com
 facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+twitter_username: /
+instagram_username: /
+linkedin_username: https://www.linkedin.com/in/spencerfolkman
+github_username: https://github.com/sfolkman4
+youtube_channel_id: /
 reddit_username: /
 behance_username: /
 dribbble_username: /
@@ -43,11 +43,11 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: TheDevsLot
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://media.licdn.com/dms/image/D5603AQFDlcpp7-tv0w/profile-displayphoto-shrink_800_800/0/1673298153026?e=2147483647&v=beta&t=iN2xRJkemkz3_zhx4vnzdlSdv4Ld_WpBdT98Imr-uPc
 # 60 Words About the Author
 author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/sfolkman4
 
 # SASS
 sass:
@@ -58,7 +58,6 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
-  - github-pages
 
 # Permalink
 permalink: "blog/:title"

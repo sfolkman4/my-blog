@@ -18,6 +18,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-admin', "0.9.0"
+  gem "jekyll-watch"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
