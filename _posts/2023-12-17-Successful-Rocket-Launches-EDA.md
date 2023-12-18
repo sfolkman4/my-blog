@@ -1,7 +1,7 @@
 ---
-title: F1 Data Analysis using Git
+title: Successful Rocket Launches EDA
 layout: post
-post-image: "https://1000logos.net/wp-content/uploads/2021/06/F1-logo.png"
+post-image: "https://t4.ftcdn.net/jpg/05/56/16/81/360_F_556168144_qEINHd6qUsQH4b6wDvgOS0WtuShVwJVm.jpg"
 description: In this post I go into detail about data analysis
 tags:
 - sample
