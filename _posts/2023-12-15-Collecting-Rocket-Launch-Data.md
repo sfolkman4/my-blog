@@ -119,6 +119,6 @@ If you want to see my EDA of this data, visit my next blog post [Successful Rock
 
 For my full code and to view the EDA visit my repository: [Rocket Launches](https://github.com/sfolkman4/Rocket-Launches/tree/main)
 
-For an interactive app of this data visit my [Streamlit Dashboard]()
+For an interactive app of this data visit my [Streamlit Dashboard](https://sfolkman4-rocket-launches-streamlitapp-kx3tqt.streamlit.app/)
 
 
