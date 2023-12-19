@@ -107,9 +107,18 @@ rocket_df = df.merge(list_df[['landing', 'mission_type']], left_index=True, righ
 ```
 Here is what the final data frame looks like:
 
-![Photo](https://github.com/sfolkman4/Rocket-Launches/blob/main/New%20Rocket%20Data%20Frame.png?raw=true)
+![Photo](https://github.com/sfolkman4/Rocket-Launches/blob/main/images/New%20Rocket%20Data%20Frame.png?raw=true)
 
 
 # Conclusion: 
 
 Now that I have my cleaned data I am ready to explore all the successful rocket launches of the past decade! There are many exciting discoveries to make with this data and I hope I am able to learn more about what is happening around the world with rocket technology. In the future I would love to go back and be able to look at more data like failed launches or launches from before the 2000's! 
+
+---
+If you want to see my EDA of this data, visit my next blog post [Successful Rocket Launches Data Exploration](https://sfolkman4.github.io/my-blog/blog/Successful-Rocket-Launches-EDA)
+
+For my full code and to view the EDA visit my repository: [Rocket Launches](https://github.com/sfolkman4/Rocket-Launches/tree/main)
+
+For an interactive app of this data visit my [Streamlit Dashboard]()
+
+
