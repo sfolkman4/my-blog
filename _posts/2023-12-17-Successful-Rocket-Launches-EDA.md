@@ -71,6 +71,6 @@ This EDA taught me about the impact that SpaceX has had in the Rocket space. The
 ---
 For my full code and to view the EDA visit my repository: [Rocket Launches](https://github.com/sfolkman4/Rocket-Launches/tree/main)
 
-For an interactive app of this data visit my [Streamlit Dashboard]()
+For an interactive app of this data visit my [Streamlit Dashboard](https://sfolkman4-rocket-launches-streamlitapp-kx3tqt.streamlit.app/)
 
 If you want to see how I got this data, visit my previous blog post on [TheSpaceDevs API](https://sfolkman4.github.io/my-blog/blog/Collecting-Rocket-Launch-Data)
