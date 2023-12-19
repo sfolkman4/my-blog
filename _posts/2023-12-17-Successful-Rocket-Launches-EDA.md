@@ -1,70 +1,76 @@
 ---
-title: Successful Rocket Launches EDA
+title: Successful Rocket Launches Data Exploration
 layout: post
-post-image: "https://t4.ftcdn.net/jpg/05/56/16/81/360_F_556168144_qEINHd6qUsQH4b6wDvgOS0WtuShVwJVm.jpg"
-description: In this post I go into detail about data analysis
+post-image: "https://ts2.space/wp-content/uploads/2023/10/How-many-rockets-have-crashed-into-the-Moon_652a7d6cc48c3.jpg"
+description: In this post I go into detail about my analysis of successful rocket launch data
 tags:
-- sample
-- post
-- test
+- EDA
+- MatplotLib
+- Rockets
+---
+Have you ever wondered who is launching rockets and where? SpaceX aren't the only ones sending billions of dollars into space!
+---
 ---
 
-This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
-For more information about writing markdown you can checkout the following markdown cheatsheets:
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
-* [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+I collected my data for this analysis using an API made by TheSpaceDevs. If you want to see how I got the data here is my previous blog post on [Building a decades worth of rocket success]('https://sfolkman4.github.io/my-blog/blog/Collecting-Rocket-Launch-Data')
+
+To start my EDA, I came up with the following questions:
+
+1. How have rocket launches increased/decreased in the last 10 years?
+2. Who is sending up the most rockets and what for?
+3. Out of all the rockets going to space, how many land?
+4. What are these rockets going up into space for?
+5. Where are rockets being launched across the globe?
+
+# Comaparison of Rockets Launched per year
+
+![Test](https://raw.githubusercontent.com/sfolkman4/Rocket-Launches/main/top_10_lsp.png)
+
+ Here we can see our top 10 launch service providers of the last decade! SpaceX and China are far in front from the others, but there are some unexpected ones on there for me. I learned that Mitsubishi is more than just an automobile company! It is also crazy to me that SpaceX has passed many nation state. Let's see their launch history compared to China.
+
+# Comparison of China vs SpaceX Launches
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/China_vs_SpaceX.png?raw=true)
+
+Even though China has had more launches in the past decade, SpaceX is coming for their #1 spot! This year alone, SpaceX has had over 90 successful launches more than doubling the amount China had this year.
+
+# Launch Types
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/mission_types.png?raw=true)
+
+By looking at the type of launch we can see just what these companies and nation states are building rockets for. It is apparent that sattelites for communication have become extremely important, especially as one of SpaceX's products. 
+
+# Launch Orbits
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/orbits.png?raw=true)
+
+Most of these communication satellites are going into what is called a Low Earth orbit. This has become very popular since it is within 1200 miles of the earth and warrants a strong connectivity and ease of control. Since these sattelites can not be seen from the earth at all angles, constellations of sattelites are made to improve connectivity. 
+
+# Landings
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/landings.png?raw=true)
+
+Since these rockets are so expensive, certain engineers had the idea of being able to reuse rockets instead of spending all of the money to only send up one object. SpaceX has greatly improved in their ability to land rockets and save a substantial amount of money by doing so.
+
+# Top Launch Locations
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/top_10_locations.png?raw=true)
+
+Here we can see that Cape Canaveral in Florida is by far the most used location for launches in the world! Let's look at where these other locations are around the globe!
+
+# Launch Location Map
+
+![](https://github.com/sfolkman4/Rocket-Launches/blob/main/pad_map.png?raw=true)
+
+It is amazing to see that rockets are being launched all over the world! Both China and the U.S. who lead the world in rocket launches have many different pad locations. The most unexpected location for me was in French Guiana!
+
+# Conclusion
+
+This EDA taught me about the impact that SpaceX has had in the Rocket space. They truly are changing the game when it comes to launches and I won't be surprised if we continue to see them grow year to year!
 
 ---
+For my full code and to view the EDA visit my repository: [Rocket Launches](https://github.com/sfolkman4/Rocket-Launches/tree/main)
 
-# This is the h1 text
-## This is the h2 text
-### This is the h3 text
-#### This is the h4 text
-##### This is the h5 text
-###### This is the h6 text
+For an interactive app of this data visit my [Streamlit Dashboard]()
 
-**Bold Text in the post will look like:**<br>
-**This text is Bold**
-
-**Italic Text in the post will look like:**<br>
-*This text is Italic*
-
-> Quotes on your post will look like this
-
-`Codes on your post will look like this`
-
-**Link in the post will look like:**<br>
-[This is a link](#)
-
-**Bullet list in the post will look like:**
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-* Item 5
-
-**Number list in the post will look like:**
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
-5. Item 5
-
-**Images in the post will look like:**<br>
-![Test Image](/WhatATheme/assets/images/1280x720%20Placeholder.png)
-
-**Normal text in the post will look like**<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id finibus nisl. Etiam in hendrerit est. Nulla non erat ac lectus interdum lobortis. Vestibulum at mi ex. Mauris nisl mi, venenatis et feugiat nec, finibus porttitor velit. Suspendisse tincidunt lobortis leo, quis tristique tellus iaculis quis. Donec eleifend pulvinar gravida. Proin non lorem eros. Donec sit amet finibus ex, eget vestibulum nunc. Ut ut enim id purus porttitor tristique. Vivamus tincidunt eleifend hendrerit. Proin metus felis, ultrices vel dui in, porta dapibus dui. Sed sagittis ex vitae dui tristique dignissim. Cras vel leo ipsum.
-
-Aenean ac neque et risus mattis accumsan. Sed ac tellus molestie, lacinia ante sit amet, convallis felis. Maecenas aliquet lectus nec euismod auctor. Donec finibus pellentesque tortor, ac efficitur metus suscipit non. Proin diam orci, blandit quis malesuada ac, efficitur a nisl. Mauris eleifend consequat blandit. Sed egestas quam et orci gravida, non euismod metus scelerisque. Curabitur venenatis pellentesque erat commodo pharetra. Fusce id ante nec ipsum fringilla auctor. In justo quam, feugiat placerat eleifend dapibus, luctus et quam. Fusce facilisis erat ut odio convallis viverra et id mauris. Sed vehicula tempus consectetur. Aliquam pharetra, purus non egestas tristique, tellus massa fringilla est, id sagittis tellus urna non mauris. Suspendisse fringilla, velit nec blandit facilisis, ligula ante imperdiet est, et placerat magna sem quis tortor.
-
-Vestibulum vitae fermentum velit, rhoncus egestas orci. Nulla at purus ut orci posuere vulputate. In eget leo diam. In congue in diam nec elementum. Suspendisse fringilla ante nulla, eu tristique orci ultrices eget. Aenean non lorem tellus. Vestibulum tempor metus sit amet tellus feugiat, sit amet consequat lacus ultricies.
-
-Donec imperdiet, lectus eget congue cursus, dolor enim finibus risus, ut molestie lorem tellus non tortor. Donec quam nibh, molestie in dapibus et, efficitur non tortor. Morbi orci tellus, mollis vel mi vitae, auctor lobortis erat. Ut gravida velit eget ligula lacinia, id rhoncus tellus gravida. Maecenas laoreet rutrum consequat. Suspendisse sed nibh dui. Curabitur dictum euismod mollis. Sed egestas libero libero, eu accumsan augue placerat non. Nunc id condimentum orci. Mauris vitae sollicitudin quam.
-
-**Giphy Gifs will look like:**<br>
-<iframe src="https://giphy.com/embed/ZqlvCTNHpqrio" width="480" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laughing-despicable-me-minions-ZqlvCTNHpqrio">via GIPHY</a></p>
-
-**YouTUbe Videos will look like:**<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jTPXwbDtIpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you want to see how I got this data, visit my previous blog post on [TheSpaceDevs API](https://sfolkman4.github.io/my-blog/blog/Collecting-Rocket-Launch-Data)

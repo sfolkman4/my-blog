@@ -81,11 +81,10 @@ df.drop('mission', axis=1, inplace=True)
 columns_to_remove = ["id", "url", "slug", "status", "last_updated", "net", "net_precision", "window_end", "launcher", "infographic", "type"]
 
 # Removing the specified columns
-df = df.drop(columns=columns_to_remove)
-
+df = df.drop(columns=columns_to_remove)' 
 ```
+There are 4 different columns that all have dates, I chose to use the date of when the rocket window started which I assume was when it was launched or put on the API. I prefer this one because most of the rocket information is updated pretty frequently. I renamed this column as my date. I also changed the format so that it would have year-month-day and the time. Here is what that looks like with my final data frame
 
-There are 4 different columns that all have dates, I chose to use the date of when the rocket window started which I assume was when it was launched or put on the API. I prefer this one because most of the rocket information is updated pretty frequently. I renamed this column as my date. I also changed the format so that it would have year-month-day and the time. Here is what that looks like with my final data frame.
 
 ```python
 #Rename single date column
