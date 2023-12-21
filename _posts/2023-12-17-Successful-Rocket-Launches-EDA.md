@@ -17,7 +17,7 @@ I collected my data for this analysis using an API made by TheSpaceDevs. If you 
 To start my EDA, I came up with the following questions:
 
 1. How have rocket launches increased/decreased in the last 10 years?
-2. Who is sending up the most rockets and what for?
+2. Who is sending up the most rockets?
 3. Out of all the rockets going to space, how many land?
 4. What are these rockets going up into space for?
 5. Where are rockets being launched across the globe?
